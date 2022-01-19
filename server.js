@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
+  useUnifiedTopology: true
 });
 
 // Use this to log mongo queries being executed!
